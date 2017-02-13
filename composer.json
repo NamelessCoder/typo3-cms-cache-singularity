@@ -1,0 +1,15 @@
+{
+    "name": "namelesscoder/typo3-cms-cache-singularity",
+    "type": "typo3-cms-extension",
+    "require": {
+        "typo3/cms": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "NamelessCoder\\CacheSingularity\\Classes\\": "Classes/"
+        }
+    },
+    "replace": {
+        "cache_singularity": "self.version"
+    }
+}
