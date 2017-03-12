@@ -6,7 +6,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NamelessCoder\\CacheSingularity\\Classes\\": "Classes/"
+            "NamelessCoder\\CacheSingularity\\": "Classes/"
         }
     },
     "replace": {
